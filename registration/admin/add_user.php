@@ -34,19 +34,18 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['type'], $_REQUES
 }else{
 ?>
 <form class="box" action="" method="post">
-	<h1 class="box-logo box-title"><a href="https://waytolearnx.com/">WayToLearnX.com</a></h1>
-    <h1 class="box-title">Add user</h1>
+    <h1 class="box-title">Ajouter</h1>
 	<input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
     <input type="text" class="box-input" name="email" placeholder="Email" required />
 	<div class="input-group">
 			<select class="box-input" name="type" id="type" >
 				<option value="" disabled selected>Type</option>
 				<option value="admin">Admin</option>
-				<option value="user">User</option>
+				<option value="user">Utilisateur</option>
 			</select>
 	</div>
     <input type="password" class="box-input" name="password" placeholder="Mot de passe" required />
-    <input type="submit" name="submit" value="+ Add" class="box-button" />
+    <input type="submit" name="submit" value="Ajouter" class="box-button" />
 </form>
 <?php } ?>
 </body>
